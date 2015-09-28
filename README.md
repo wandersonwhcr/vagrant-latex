@@ -22,3 +22,6 @@ make para compilar o arquivo de exemplo do LaTeX.
 vagrant ssh
 make
 ```
+
+O arquivo `document.tex` será utilizado como entrada para processamento do
+LaTeX, gerando o arquivo `document.pdf` com o documento de exemplo formatado.
