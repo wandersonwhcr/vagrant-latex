@@ -42,8 +42,27 @@
     title        = "O título do trabalho",
     author       = "Peter Caxton",
     howpublished = "Como este livro foi publicado",
-    address      = "Endereço da publicadora",
+    address      = "O endereço da publicadora",
     month        = 7,
     year         = 1993,
     note         = "Uma nota opcional para a bibligrafia",
+}
+
+% conference
+% Artigo em Conferência
+% Obrigatórios: author, title, booktitle, year
+% Opcionais: editor, volume/number, series, pages, address, month, organization, publisher, note
+@conference{draper1993,
+    author       = "Peter Draper",
+    title        = "O título do trabalho",
+    booktitle    = "O título do livro",
+    year         = 1993,
+    editor       = "O nome completo do editor",
+    volume       = 4,
+    series       = 5,
+    address      = "O endereço da publicadora",
+    month        = 7,
+    organization = "O nome da organização",
+    publisher    = "O nome da publicadora",
+    note         = "Uma nota opcional para a bibliografia",
 }
