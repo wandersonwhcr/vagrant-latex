@@ -33,3 +33,17 @@
     note      = "Uma nota opcional para a bibliografia",
     isbn      = "1234567890",
 }
+
+% booklet
+% Obra sem Vínculo com Publicadora ou Patrocinador
+% Obrigatórios: title
+% Opcionais: author, howpublished, address, month, year, note
+@booklet{caxton1993,
+    title        = "O título do trabalho",
+    author       = "Peter Caxton",
+    howpublished = "Como este livro foi publicado",
+    address      = "Endereço da publicadora",
+    month        = 7,
+    year         = 1993,
+    note         = "Uma nota opcional para a bibligrafia",
+}
