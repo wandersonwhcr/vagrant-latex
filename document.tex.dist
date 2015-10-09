@@ -10,4 +10,9 @@
 
 \maketitle{}
 
+\cite{joao1993}
+
+\bibliographystyle{plain}
+\bibliography{document}
+
 \end{document}
