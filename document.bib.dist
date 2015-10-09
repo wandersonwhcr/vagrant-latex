@@ -2,7 +2,7 @@
 % Artigo de Revista Científica ou Periódico
 % Obrigatórios: author, title, journal, year
 % Opcionais: volume, number, pages, month, note
-@article {joao1993,
+@article{joao1993,
     author  = "João da Silva e Silva",
     title   = "O título do trabalho",
     journal = "O nome da revista científica",
@@ -12,4 +12,24 @@
     month   = 7,
     note    = "Uma nota opcional para a bibliografia",
     volume  = 4,
+}
+
+% book
+% Livro Publicado
+% Obrigatórios: author/editor, title, publisher, year
+% Opcionais: volume/number, series, address, edition, month, note
+@book{babington1993,
+    author    = "Peter Babington",
+    editor    = "O nome completo do editor",
+    title     = "O título do trabalho",
+    publisher = "O nome da publicadora",
+    year      = 1993,
+    volume    = 4,
+    number    = 4,
+    series    = 10,
+    address   = "O endereço da publicadora",
+    edition   = 3,
+    month     = 7,
+    note      = "Uma nota opcional para a bibliografia",
+    isbn      = "1234567890",
 }
