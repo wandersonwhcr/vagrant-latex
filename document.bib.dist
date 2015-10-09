@@ -1,3 +1,7 @@
+% article
+% Artigo de Revista Científica ou Periódico
+% Obrigatórios: author, title, journal, year
+% Opcionais: volume, number, pages, month, note
 @article {joao1993,
     author  = "João da Silva e Silva",
     title   = "O título do trabalho",
