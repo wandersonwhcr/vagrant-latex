@@ -1,5 +1,8 @@
 *.aux
+*.bbl
+*.blg
 *.log
 *.pdf
+*.swp
 *.tex
 .vagrant
