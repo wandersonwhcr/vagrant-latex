@@ -3,6 +3,9 @@ all: document.pdf
 document.tex:
 	cp document.tex.dist document.tex
 
+document.bib:
+	cp document.bib.dist document.bib
+
 document.pdf: document.aux document.bbl
 	pdflatex document.tex && pdflatex document.tex
 
