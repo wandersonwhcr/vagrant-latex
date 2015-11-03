@@ -10,3 +10,10 @@ package { 'texlive-latex-base':
         '--no-install-recommends',
     ],
 }
+
+package { 'texlive-latex-extra':
+    name            => 'texlive-latex-extra',
+    install_options => [
+        '--no-install-recommends',
+    ],
+}
