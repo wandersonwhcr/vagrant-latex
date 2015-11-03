@@ -10,3 +10,10 @@ package { 'texlive-latex-base':
         '--no-install-recommends',
     ],
 }
+
+package { 'texlive-fonts-recommended':
+    name            => 'texlive-fonts-recommended',
+    install_options => [
+        '--no-install-recommends',
+    ],
+}
