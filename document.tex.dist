@@ -1,6 +1,7 @@
 \documentclass{article}
 
 \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
 
 \title{Título do Artigo de Teste para Vagrant}
