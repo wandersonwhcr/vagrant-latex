@@ -9,12 +9,18 @@ package { 'texlive-latex-base':
     install_options => [
         '--no-install-recommends',
     ],
+    subscribe => [
+        Exec["apt-get : update"],
+    ],
 }
 
 package { 'texlive-latex-extra':
     name            => 'texlive-latex-extra',
     install_options => [
         '--no-install-recommends',
+    ],
+    subscribe => [
+        Exec["apt-get : update"],
     ],
 }
 
@@ -23,11 +29,17 @@ package { 'texlive-fonts-recommended':
     install_options => [
         '--no-install-recommends',
     ],
+    subscribe => [
+        Exec["apt-get : update"],
+    ],
 }
 
 package { 'texlive-lang-portuguese':
     name            => 'texlive-lang-portuguese',
     install_options => [
         '--no-install-recommends',
+    ],
+    subscribe => [
+        Exec["apt-get : update"],
     ],
 }
