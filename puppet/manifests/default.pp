@@ -24,3 +24,10 @@ package { 'texlive-fonts-recommended':
         '--no-install-recommends',
     ],
 }
+
+package { 'texlive-lang-portuguese':
+    name            => 'texlive-lang-portuguese',
+    install_options => [
+        '--no-install-recommends',
+    ],
+}
